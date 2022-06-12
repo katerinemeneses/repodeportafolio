@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/ccbb241a95.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/Cris_styles.css">
+    <link rel="shortcut icon" href="./img/proyectos/proyectos/imagen1.png" type="image/x-icon">
+    <title>PORTFOLIO</title>
+</head>
+<body>
+
+<!-- BACKGROUND AND TITLE -->
+<div class="background-main">
+    <div class="background-overlay" id="particles-js"></div>
+    <div class="contenedor-texto">
+        <h2 class="titulo">Programacion web / diseño UI / responsive design</h2>
+        <span class="typed"></span>
+    </div>
+</div>
+
+<!-- HEADER -->
+
+<nav>
+    <div class="header-container">
+        <a href="index.html" class="header-logo">KM</a>
+        <div class="container-icon-header" id="menu-header">
+            <button class="button-icon-header" >
+                <i class="fas fa-hamburger fa-2x"></i>
+            </button>
+        </div>
+        <div class="header-list">
+            <ul class="container-item-header">
+                <li class="item-header"><a href="#acercaDeMi" onclick="ocultarMenu(event)" >Acerca de mi</a></li>
+                <li class="item-header"><a href="#servicios" onclick="ocultarMenu(event)">Servicios</a></li>
+                <li class="item-header"><a href="#proyectos" onclick="ocultarMenu(event)">Proyectos</a></li>
+                <li class="item-header"><a href="#contacto" onclick="ocultarMenu(event)">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ACERCA DE MI -->
+
+<div class="container-acerca-de-mi" id="acercaDeMi">
+    <div class="row-acerca-de-mi">
+        <div class="col-acerca-de-mi oculto">
+            <img src="./img/KATERINE.gif" class="cris" alt="Karla Meneseses. Desarrolladora">
+        </div>
+        <div class="col-acerca-de-mi-2 oculto">
+            <p>¡Hola! Mi nombre es Karla Meneses de Cali Colombia, Actualmente estoy estudiando programación web en Academlo ciencias de computación para mejorar mis habilidades, pero reconvertido en lo laboral a lo que me apasiona, el desarrollo web frontend. Estoy feliz por mi cambio y deseo tener un crecimiento constante tanto personal, como profesional, siendo una destacada programadora. y con un foco en el aprendizaje autodidacta. mis tecnologías son html, css, react, javascript y por supuesto ir aprendiendo más.
+                 y poder dar mis conocimientos a otras. por eso amo este mundo y lo mejor de todo es ¡El trabajo en equipo! .</p>
+            </p>
+        </div>
+    </div>
+</div>
+
+<!--FRONT-END STACK -->
+<section>
+    <div class="contenedor-stack">
+        <h3 class="stack-title">LENGUAJES Y HERRAMIENTAS UTILIZADOS</h3>
+        <div class="row-stack">
+            <div class="col-stack">
+                <div class="img-stack"><img src="./img/lenguajes/HTML.svg" alt="HTML"></div>
+                <div class="img-stack"><img src="./img/lenguajes/CSS.svg" alt="CSS"></div>
+                <div class="img-stack"><img src="./img/lenguajes/JS.svg" alt="JS"></div>
+            </div>
+            <div class="col-stack">
+                <div class="img-stack"><img src="./img/lenguajes/REACT.svg" alt="Bootstrap"></div>
+                <div class="img-stack"><img src="./img/lenguajes/SASS.svg" alt="SASS"></div>
+                <div class="img-stack"><img src="./img/lenguajes/GIT.svg" alt="GIT"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICIOS -->
+
+<section>
+    <div class="contenedor-servicios" id="servicios">
+        <h3 class="servicios-title">Mis <strong>Servicios</strong></h3>
+        <div class="row-services">
+            <div class="col-services">
+                <div class="item-services">
+                    <div class="container-icon">
+                        <i class="fas fa-desktop fa-2x"></i>
+                    </div>
+                    <h5 class="item-title-services">Creación de aplicaciones web</h5>
+                    <div class="p-services">
+                        <p>Puedo crear desde cero aplicaciones interactivas e informativas con <strong> diseños únicos y personalizados</strong> que estarán enfocados en la <strong>experiencia del usuario</strong>  con mecanicas intuitivas y faciles de utilizar, cuidando el <strong>SEO</strong>  para garantizarte un buen lugar en las busquedas de google</p>
+                    </div>
+                </div>
+                <div class="item-services">
+                    <div class="container-icon">
+                        <i class="fas fa-palette fa-2x"></i>
+                    </div>
+                    <h5 class="item-title-services">Maquetacion</h5>
+                    <div class="p-services">
+                        <p>Hago la maquetación desde el comienzo de la página web, utilizando <strong> HTML, CSS, JS, SASS </strong>guardando toda fidelidad posible al diseño de la página. Realizo <strong> correcciones, modificaciones o implementación de nuevo código </strong> en una web ya creada.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-services">
+                <div class="item-services">
+                    <div class="container-icon">
+                        <i class="fas fa-mobile-alt fa-2x"></i>
+                    </div>
+                    <h5 class="item-title-services">Diseño responsivo</h5>
+                    <div class="p-services">
+                        <p>La maquetación desde el comienzo de una página <strong>web responsiva </strong> priorizando el <strong>mobile-first</strong>, o también adaptar diseños de desktop a móvil y viceversa.</p>
+                    </div>
+                </div>
+                <div class="item-services">
+                    <div class="container-icon">
+                        <i class="fas fa-database fa-2x"></i>
+                    </div>
+                    <h5 class="item-title-services">APIS o bases de datos</h5>
+                    <div class="p-services">
+                        <p>Consumo de <strong>APIS y bases de datos </strong> proporcionados desde el <strong>BACK-END</strong>, realizando llamadas y peticiones al servidor, para la manipulación de datos.</p>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROYECTOS -->
+
+    <section class="proyectos-container">
+        <h3 class="proyectos-titulo"><strong>Proyectos</strong></h3>
+        <div class="container-slider">
+            <div class="slider" id="slider">
+                <div class="slider-section">
+                    <a href="https://e-commerce-by-benja-alex-karla.netlify.app/?fbclid=IwAR0Zxdd5NKuq47yfBGp_YJFVmxCGVEETS01lernM0OdOcCqJOKqHd092oDk"><img src="./img/proyectos/proyectos/imagen1.png" alt="todolist" class="slider-img"></a>
+                </div>
+                <div class="slider-section">
+                    <a href="https://nostalgic-sammet-f5a72a.netlify.app/"><img src="./img/proyectos/proyectos/imagen2.png" alt="Weatherapp" class="slider-img"></a>
+                </div>
+                <div class="slider-section">
+                    <a href="https://rad-boba-0ce553.netlify.app/"><img src="./img/proyectos/proyectos/imagen3.png" alt="proyecto2" class="slider-img"></a>
+                </div>
+                <div class="slider-section">
+                    <a href="https://brilliant-melomakarona-2c9cc1.netlify.app/"><img src="./img/proyectos/proyectos/imagen4.png" alt="proyecto3" class="slider-img"></a>
+                </div>
+                <div class="slider-section">
+                    <a href="https://sage-lamington-384c90.netlify.app/"><img src="./img/proyectos/proyectos/imagen5.png" alt="proyecto4" class="slider-img"></a>
+                </div>
+                <div class="slider-section">
+                    <a href="https://sensational-pie-0745a8.netlify.app/"><img src="./img/proyectos/proyectos/imagen6.png" alt="proyecto5" class="slider-img"></a>
+                </div>
+            </div>
+            <div class="slider-btn slider-btn-izquierdo" id="btn-izquierdo"> < </div>
+            <div class="slider-btn slider-btn-derecho" id="btn-derecho"> > </div>
+        </div>
+    </section>
+
+<!-- CONTACTOS -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1a1a1a" fill-opacity="1" d="M0,192L40,197.3C80,203,160,213,240,208C320,203,400,181,480,149.3C560,117,640,75,720,48C800,21,880,11,960,53.3C1040,96,1120,192,1200,234.7C1280,277,1360,267,1400,261.3L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg><section class="contact">
+    <form class="form-contacto" id="contacto" action="https://formspree.io/f/mleaydbk" method="POST">
+        <div class="container-contacto">
+            <h3 class="title-contacto"><strong>CONTACTO</strong></h3>
+            <input name="nombre" type="text" class="input-contacto" placeholder="Nombre">
+            <input name="email" type="email" class="input-contacto" placeholder="Correo Electronico">
+            <input name="" type="text" class="input-contacto" placeholder="Asunto">
+            <textarea name="mensaje" id="Mensaje-contacto" class="mensaje-contacto" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+            <button name="enviar" type="submit" class="button-contacto" name="Enviar">ENVIAR </button>
+        </div>
+        <div class="social-networks-container">
+            <a href="https://www.linkedin.com/in/karla-katerine-meneses-parra-36a262223/" class="social-network-enlace"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/katerinemeneses" class="social-network-enlace"><i class="fab fa-github fa-2x"></i></a>
+            <a href="https://www.instagram.com/parrakarla656/" class="social-network-enlace"><i class="fab fa-instagram-square fa-2x"></i></a>
+        </div>
+        <div class="agradecimiento" id="agradecimiento">
+            <h1 class="agradecimiento-titulo">Gracias por contactarme,  <br> respondere lo antes posible</h1>
+        </div>
+    </form>
+</section>
+
+    <script src="./particulas/particles.js"></script>
+    <script src="./particulas/config.js"></script>
+    <script src="./typed.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
